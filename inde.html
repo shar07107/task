@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jackson Task</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <header>
+        <div class="nav-menu">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light p-md-4 pl-md-5 pr-md-5">
+                <a class="navbar-brand" href="#">
+                <img src="assets/icons/logo.png" class="img-fluid" alt="">
+                </a>
+                
+                  <div class="d-flex flex-row nav-menu-list flex-shrink-1 justify-content-end">
+                    <ul class="navbar-nav d-flex flex-row align-items-center">
+                      <li class="nav-item pr-3 d-none d-sm-block">
+                        <a class="nav-link font-600 text-dark" href="#">Welcome! Stefan Harary <span class="sr-only">(current)</span></a>
+                      </li>
+                      <li class="nav-item pr-3">
+                        <a class="nav-link" href="#"><img src="assets/icons/user.png" class="img-fluid" alt="user" srcset="assets/icons/user.png"></a>
+                      </li>
+                      <li class="nav-item pr-4">
+                        <a class="nav-link" href="#"><img src="assets/icons/bell.png" class="img-fluid" alt="bell" srcset="assets/icons/bell.png"></a>
+                      </li>
+                      <li class="nav-item">
+                        <!-- <a class="nav-link last-cta" href="#">Link</a> -->
+                        <button type="button" class="btn-outline-cta"><img src="assets/icons/down_arrow.png" class="img-fluid" alt="bell" srcset="assets/icons/down_arrow.png"> DEVNET</button>
+                      </li>
+                    </ul>
+                  </div>
+                  
+            </nav>
+        </div>
+        <div class="nav-menu-2">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-end">
+                <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                  <ul class="navbar-nav">
+                    <li class="nav-item pr-lg-3 mr-lg-3 pb-lg-2 pt-lg-3 active">
+                      <a class="nav-link font-weight-light" href="#">Main Account <span class=""> <img src="assets/icons/icon_!.png" class="img-fluid pl-2" alt="Account" srcset="assets/icons/icon_!.png"> </span></a>
+                    </li>
+                    <li class="nav-item pr-lg-3 mr-lg-3 pb-lg-2 pt-lg-3">
+                      <a class="nav-link font-weight-light" href="#">Deposit Funds <span class=""> <img src="assets/icons/2.png" class="img-fluid pl-2" alt="Account" srcset="assets/icons/2.png"> </span></a>
+                    </li>
+                    <li class="nav-item pr-lg-3 mr-lg-3 pb-lg-2 pt-lg-3">
+                      <a class="nav-link font-weight-light" href="#">Domains <span class=""> <img src="assets/icons/domains.png" class="img-fluid pl-2" alt="Account" srcset="assets/icons/domains.png"> </span></a>
+                    </li>
+                    <li class="nav-item pr-lg-3 mr-lg-3 pb-lg-2 pt-lg-3">
+                      <a class="nav-link font-weight-light" href="#">SWAP Tokens <span class=""> <img src="assets/icons/swap_tokens.png" class="img-fluid pl-2" alt="Account" srcset="assets/icons/swap_tokens.png"> </span></a>
+                    </li>
+                    <li class="nav-item pr-lg-3 mr-lg-3 pb-lg-2 pt-lg-3">
+                      <a class="nav-link font-weight-light" href="#">Add Token <span class=""> <img src="assets/icons/migrate_tokans.png" class="img-fluid pl-2" alt="Account" srcset="assets/icons/migrate_tokans.png"> </span></a>
+                    </li>
+                    <li class="nav-item pr-lg-3 mr-lg-3 pb-lg-2 pt-lg-3">
+                      <a class="nav-link font-weight-light" href="#">Sort Token <span class=""> <img src="assets/icons/sort_tokens.png" class="img-fluid pl-2" alt="Account" srcset="assets/icons/sort_tokens.png"> </span></a>
+                    </li>
+                    <li class="nav-item pr-lg-3 pb-lg-2 pt-lg-3">
+                      <a class="nav-link font-weight-light" href="#">&nbsp;<span class=""> <img src="assets/icons/reload.png" class="img-fluid pr-2" alt="Account" srcset="assets/icons/reload.png"> </span></a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+        </div>
+    </header>
+
+    <div class="main">
+        <section>
+        <div class="container pt-5 p-lg-5">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="card card-style">
+                        <div class="card-header p-4">
+                          <h5 class="font-weight-bold m-0">Main account (A5JF...mvCi) ($0.00) <span class="pl-lg-4"><img src="assets/icons/copy.png" class="img-fluid pr-2" alt="Account" srcset="assets/icons/copy.png"></span></h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-lg-6 list-inline">
+                                    <div class="dot list-inline-item"></div>
+                                    <div class="list-inline-item">
+                                        <h5 class="card-title">Lorem ipsum</h5>
+                                        <p class="font-300 m-0">Lorem ipsum dolor sit amet, consectetuer adipiscing</p>
+                                    </div>
+                                </div>
+                                <!-- <div class="col-lg-3 d-flex align-items-center justify-content-end">
+                                </div> -->
+                                <div class="col-lg-6 d-flex align-items-end justify-content-md-end pt-3 pt-md-3">
+                                    <a href="#" class="btn-outline-receive mr-3 mr-lg-5">RECEIVE <span class="pl-lg-2"><img src="assets/icons/received.png" class="img-fluid" alt="Account" srcset="assets/icons/received.png"></span></a>
+                                    <a href="#" class="btn-outline-send mr-lg-5">SEND <span class="pl-lg-2"><img src="assets/icons/send.png" class="img-fluid" alt="Account" srcset="assets/icons/send.png"></span></a>
+                                </div>
+                            </div>
+                            <div class="row mt-5">
+                                <div class="col-6 col-lg-3 text-center">
+                                        <p class="m-0">Token Name</p>
+                                        <h5 class="card-title">SOL</h5>
+                                </div>
+                                <div class="col-6 col-lg-3 text-center">
+                                        <p class="m-0">Token Symbol</p>
+                                        <h5 class="card-title text-center">SOL</h5>
+                                </div>
+                                <div class="col-6 col-lg-2 text-center">
+                                        <p class="m-0 text-blue">View on Solscan</p>
+                                </div>
+                                <div class="col-6 col-lg-2 text-center">
+                                        <p class="m-0 text-blue">View on Serum</p>
+                                </div>
+                            </div>
+                            <div class="row mt-5">
+                                <div class="col-lg-12 d-flex align-items-end justify-content-center">
+                                    <a href="#" class="btn-export mr-lg-5">Export </a>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div class="row mt-3 btn-section">
+                <div class="col-lg-12">
+                    <a href="#" class="request-btn mr-1 mr-md-4">REQUEST AIRDROP </a>
+                    <a href="#" class="test-btn mr-lg-5">MINT TEST TOKEN</a>
+                </div>
+            </div>
+
+        </div>
+        </section>
+
+        <!-- Last Section -->
+        <section class="last-section pt-5 pb-4 pr-0 pt-md-0">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <a href="#" class="source-btn float-right"><span class="pr-lg-2"><img src="assets/icons/view_source.png" class="img-fluid" alt="Account" srcset="assets/icons/view_source.png"></span> View Source</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
