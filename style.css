@@ -25,7 +25,9 @@
   .font-600{
       font-weight: 600;
   }
-
+.bg-dark {
+    background-color: #313740!important;
+}
 .text-blue{
     color: var(--blue);
 }
