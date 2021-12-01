@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --dark: #313740;
+    --green: #6FCC5C;
+    --white: #FFFFFF;
+    --yellow: #FFC107;
+    --blue: #2196F3;
+    --red: #F44336;
+    --gray: #D3D3D3;
+
+    --timesnew-font-family: "Times New Roman", Times, serif;
+    --font-poppins:'Poppins', sans-serif;
+  }
+
+  *{
+      margin: 0;
+      padding: 0;
+      font-family: var(--font-poppins);
+  }
+  .font-300{
+    font-weight: 300;
+}
+  .font-600{
+      font-weight: 600;
+  }
+
+.text-blue{
+    color: var(--blue);
+}
+.nav-menu-list{
+    width: 100%;
+}
+  .btn-outline-cta{
+    width: max-content;
+    color: var(--dark);
+    background-color: transparent;
+    background-image: none;
+    border-color: var(--dark);
+    padding: 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  .nav-menu-2{
+    box-shadow: 15px 3px 8px 4px #000000;
+  }
+.nav-menu-2 .navbar-nav .nav-item{
+    border-bottom-width: 6px;
+    border-color:var(--dark);
+    border-bottom-style: solid;
+    border-top-width: 6px;  
+}
+.nav-menu-2 .navbar-nav .nav-item:hover{
+    border-bottom-width: 6px;
+    border-color:var(--green);
+    border-bottom-style: solid;
+}
+.nav-menu-2 .navbar-nav .nav-link img{
+    margin-top: -5px;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: var(--white);
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: var(--green);
+}
+
+
+/* Card Style */
+
+.card-style{
+    border-radius: 10px;
+    border: 1px solid #00000066;
+}
+.card-style .card-header{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.856);
+    background-color: var(--white);
+    border-radius: 10px 10px 0 0;
+}
+
+.card-style .dot{
+    position: relative;
+    top: -22px;
+    width: 32px;
+    height: 32px;
+    background-color:var(--gray);
+    border-radius: 50px;
+}
+
+
+.card-style .card-body .btn-outline-receive{
+    color: var(--yellow);
+    background-color: transparent;
+    background-image: none;
+    border-color: var(--yellow);
+    padding: 8px 24px;
+    border-radius: 5px;    
+    border: 1px solid var(--yellow);
+    text-transform: uppercase;
+    font-weight: normal;
+    text-decoration: none;
+  }
+  .card-style .card-body .btn-outline-send{
+    color: var(--green);
+    background-color: transparent;
+    background-image: none;
+    border-color: var(--green);
+    padding: 8px 24px;
+    border-radius: 5px;    
+    border: 1px solid var(--green);
+    text-transform: uppercase;
+    font-weight: normal;
+    text-decoration: none;
+  }
+
+  .card-style .card-body .btn-export{
+    color:var(--white);
+    background-color: var(--red);
+    background-image: none;
+    padding: 8px 24px;
+    border-radius: 5px;    
+    text-transform: uppercase;
+    font-weight: 300;
+    text-decoration: none;
+  }
+
+  /* Btn Section */
+
+  .btn-section .request-btn{
+    color:var(--white);
+    background-color: var(--dark);
+    background-image: none;
+    padding: 8px 24px;
+    border-radius: 5px;    
+    text-transform: uppercase;
+    font-weight: 300;
+    text-decoration: none;
+  }
+  .btn-section .test-btn{
+    color:gray;
+    background-color: var(--gray);
+    background-image: none;
+    padding: 8px 24px;
+    border-radius: 5px;    
+    text-transform: uppercase;
+    font-weight: 300;
+    text-decoration: none;
+  }
+
+/* last Section */
+
+.last-section .source-btn{
+    color:var(--white);
+    background-color: var(--dark);
+    background-image: none;
+    padding: 8px 24px;
+    border-radius: 5px;    
+    text-transform: uppercase;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+/* MEdia Query */
+
+@media only screen and (max-device-width: 480px) {
+    .card-style .dot{
+        top: 0px;
+    }
+    
+  .btn-section .request-btn,  .btn-section .test-btn{
+    padding: 8px 18px;
+  }
+  .nav-menu-list{
+    width: auto;
+    }
+}
+  
