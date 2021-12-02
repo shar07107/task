@@ -54,6 +54,9 @@
     border-bottom-style: solid;
     border-top-width: 6px;  
 }
+.nav-menu-2 .navbar-nav .active{
+    border-color:var(--green);
+}
 .nav-menu-2 .navbar-nav .nav-item:hover{
     border-bottom-width: 6px;
     border-color:var(--green);
